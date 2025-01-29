@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3BAD63B8-87F9-4934-9A79-7218DA2CCEA5}|Assignment_2.nUnitTests\\Assignment_2.nUnitTests.csproj|c:\\users\\ferwo\\desktop\\programming-software quality assurance\\assignment_2\\assignment_2\\assignment_2.nunittests\\productinventorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BAD63B8-87F9-4934-9A79-7218DA2CCEA5}|Assignment_2.nUnitTests\\Assignment_2.nUnitTests.csproj|solutionrelative:assignment_2.nunittests\\productinventorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{830C48DB-3B35-4F5E-BBA7-2F7FD67EE492}|Assignment_2\\Assignment_2.csproj|c:\\users\\ferwo\\desktop\\programming-software quality assurance\\assignment_2\\assignment_2\\assignment_2\\productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{830C48DB-3B35-4F5E-BBA7-2F7FD67EE492}|Assignment_2\\Assignment_2.csproj|solutionrelative:assignment_2\\productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,25 +35,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductInventoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2.nUnitTests\\ProductInventoryTest.cs",
+              "RelativeDocumentMoniker": "Assignment_2.nUnitTests\\ProductInventoryTest.cs",
+              "ToolTip": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2.nUnitTests\\ProductInventoryTest.cs",
+              "RelativeToolTip": "Assignment_2.nUnitTests\\ProductInventoryTest.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwHsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:13:39.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductInventory.cs",
               "DocumentMoniker": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2\\ProductInventory.cs",
               "RelativeDocumentMoniker": "Assignment_2\\ProductInventory.cs",
               "ToolTip": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2\\ProductInventory.cs",
               "RelativeToolTip": "Assignment_2\\ProductInventory.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwFEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T18:31:34.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2\\Program.cs",
               "RelativeDocumentMoniker": "Assignment_2\\Program.cs",
               "ToolTip": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2\\Program.cs",
               "RelativeToolTip": "Assignment_2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T18:23:35.551Z",
               "EditorCaption": ""

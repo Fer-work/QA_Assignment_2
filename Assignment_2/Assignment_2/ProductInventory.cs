@@ -52,12 +52,36 @@ namespace Assignment_2
         // develop 3 test cases for IncreaseStock - Fernando
         public void IncreaseStock(int stockAmount)
         {
+            if (stockAmount <= 0)
+            {
+                throw new ArgumentException("The stock to add should be a number greater than 0");
+            }
+
+            int stockOutOfRangeCheck = StockAmount + stockAmount;
+
+            if (stockOutOfRangeCheck > 500000)
+            {
+                throw new ArgumentException("The stock is greater than 500,000");
+            }
+
             StockAmount += stockAmount;
         }
 
         // develop 3 test cases for DecreaseStock
         public void DecreaseStock(int stockAmount)
         {
+            if (stockAmount <= 0)
+            {
+                throw new ArgumentException("The stock to decrease should be a number greater than 0");
+            }
+
+            int stockOutOfRangeCheck = StockAmount - stockAmount;
+
+            if (stockOutOfRangeCheck < 5)
+            {
+                throw new ArgumentException("You can't have less than 5 of this item in stock");
+            }
+
             StockAmount -= stockAmount;
         }
     }

@@ -16,9 +16,9 @@ internal class Program
         Console.WriteLine($"item 3: {item3.ProductName}\t\tProduct ID: {item3.ProductId}\tprice: {item3.ItemPrice.ToString("0.00")}\tStock: {item3.StockAmount}");
         Console.WriteLine($"item 4: {item4.ProductName}\t\tProduct ID: {item4.ProductId}\tprice: {item4.ItemPrice.ToString("0.00")}\tStock: {item4.StockAmount}");
 
-        item1.IncreaseStock(5);
+        item1.IncreaseStock(10);
         Console.WriteLine($"item 1: {item1.ProductName}\tProduct ID: {item1.ProductId}\tprice: {item1.ItemPrice.ToString("0.00")}\tStock: {item1.StockAmount}");
-        item1.DecreaseStock(2);
+        item1.DecreaseStock(50);
         Console.WriteLine($"item 1: {item1.ProductName}\tProduct ID: {item1.ProductId}\tprice: {item1.ItemPrice.ToString("0.00")}\tStock: {item1.StockAmount}");
 
     }
