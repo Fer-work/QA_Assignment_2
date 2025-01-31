@@ -122,7 +122,56 @@ namespace Assignment_2.nUnitTests
         #endregion
 
         #region Ritika's Tests
+        [Test]
+        public void ItemPrice_BelowMinimum_ShouldThrowException()
+        {
+            // Arrange
+            double invalidPrice = 3.99;
+
+            // Act & Assert
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => _inventory.ItemPrice = invalidPrice);
+            StringAssert.Contains("Product price should be between 5 - 5000", exception.Message);
+        }
+
+        [Test]
+        public void ItemPrice_AboveMaximum_ShouldThrowException()
+        {
+            // Arrange
+            double invalidPrice = 6000.00;
+
+            // Act & Assert
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => _inventory.ItemPrice = invalidPrice);
+            StringAssert.Contains("Product price should be between 5 - 5000", exception.Message);
+        }
+
+        [Test]
+        public void ProductName_EmptyString_ShouldThrowException()
+        {
+            // Arrange
+            string invalidName = "";
+
+            // Act & Assert
+            var exception = Assert.Throws<ArgumentException>(() => _inventory.ProductName = invalidName);
+            StringAssert.Contains("Product name cannot be empty.", exception.Message);
+        }
+
+
+        [Test]
+        public void ItemPrice_ValidPrice_ShouldSetPriceCorrectly()
+        {
+            // Arrange
+            double validPrice = 250.99;
+
+            // Act
+            _inventory.ItemPrice = validPrice;
+            double actualPrice = _inventory.ItemPrice;
+
+            // Assert
+            Assert.That(actualPrice, Is.EqualTo(validPrice));
+        }
+
         #endregion
+
 
         #region Arshad's Tests
         #endregion
