@@ -174,7 +174,6 @@ namespace Assignment_2.nUnitTests
 
 
         #region Arshad's Tests
-        #endregion
         [Test]
         public void StockAmount_BelowMinimum_ShouldThrowException()
         {
@@ -224,14 +223,72 @@ namespace Assignment_2.nUnitTests
             // Assert
             Assert.That(actualStock, Is.EqualTo(validStock));
         }
-
-
-
-
-
-        #region Khushdeep's Tests
         #endregion
 
+        #region Khushdeep's Tests
+        /// I choosed 5 because it becomes the minimum value 
 
+        [Test]
+        public void SetPrice_ValidMinimumPrice_SetsCorrectly()
+        {
+            // Arrange
+            double validprice = 5; // Minimum valid price
+
+            // Act
+            _inventory.ItemPrice = validprice;
+            var realPrice = _inventory.ItemPrice;
+
+            // Assert
+            Assert.That(realPrice, Is.EqualTo(validprice));
+        }
+
+        /// I used 5000 because it becomes the highest value
+
+        [Test]
+        public void SetPrice_ValidMaximumPrice_SetsCorrectly()
+        {
+            // Arrange
+            double validprice = 5000; // Highest valid price
+
+            // Act
+            _inventory.ItemPrice = validprice;
+            var realPrice = _inventory.ItemPrice;
+
+            // Assert
+            Assert.That(realPrice, Is.EqualTo(validprice));
+        }
+
+        /// I choosed 2500 because it becomes the mid value.
+
+        [Test]
+        public void SetPrice_MidRangeValue_SetsCorrectly()
+        {
+            // Arrange
+            double validprice = 2500; // A mid-range valid price
+
+            // Act
+            _inventory.ItemPrice = validprice;
+            var realPrice = _inventory.ItemPrice;
+
+            // Assert
+            Assert.That(realPrice, Is.EqualTo(validprice));
+        }
+
+        /// I selected 120 as a random value.
+
+        [Test]
+        public void SetPrice_AnotherValidValue_SetsCorrectly()
+        {
+            // Arrange
+            double validprice = 120; // Random valid price
+
+            // Act
+            _inventory.ItemPrice = validprice;
+            var realPrice = _inventory.ItemPrice;
+
+            // Assert
+            Assert.That(realPrice, Is.EqualTo(validprice));
+        }
+        #endregion
     }
 }
