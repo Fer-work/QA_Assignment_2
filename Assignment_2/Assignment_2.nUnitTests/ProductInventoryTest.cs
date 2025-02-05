@@ -175,6 +175,59 @@ namespace Assignment_2.nUnitTests
 
         #region Arshad's Tests
         #endregion
+        [Test]
+        public void StockAmount_BelowMinimum_ShouldThrowException()
+        {
+            // Arrange
+            int invalidStock = 4;
+
+            // Act & Assert
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => _inventory.StockAmount = invalidStock);
+            StringAssert.Contains("Stock amount should be between 5 and 500,000", exception.Message);
+        }
+
+        [Test]
+        public void StockAmount_AboveMaximum_ShouldThrowException()
+        {
+            // Arrange
+            int invalidStock = 500001;
+
+            // Act & Assert
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => _inventory.StockAmount = invalidStock);
+            StringAssert.Contains("Stock amount should be between 5 and 500,000", exception.Message);
+        }
+
+        [Test]
+        public void ProductName_ValidName_ShouldSetCorrectly()
+        {
+            // Arrange
+            string validName = "Laptop";
+
+            // Act
+            _inventory.ProductName = validName;
+            string actualName = _inventory.ProductName;
+
+            // Assert
+            Assert.That(actualName, Is.EqualTo(validName));
+        }
+
+        [Test]
+        public void StockAmount_ValidAmount_ShouldSetCorrectly()
+        {
+            // Arrange
+            int validStock = 1000;
+
+            // Act
+            _inventory.StockAmount = validStock;
+            int actualStock = _inventory.StockAmount;
+
+            // Assert
+            Assert.That(actualStock, Is.EqualTo(validStock));
+        }
+
+
+
+
 
         #region Khushdeep's Tests
         #endregion

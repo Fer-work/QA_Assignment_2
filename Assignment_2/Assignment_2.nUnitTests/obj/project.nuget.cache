@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "0v2AwHQU99g=",
+  "dgSpecHash": "WkXkKq3MTDo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2.nUnitTests\\Assignment_2.nUnitTests.csproj",
+  "projectFilePath": "C:\\Users\\comra\\Documents\\GitHub\\QA_Assignment_2\\Assignment_2\\Assignment_2.nUnitTests\\Assignment_2.nUnitTests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ferwo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
-    "C:\\Users\\ferwo\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\comra\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\comra\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }
