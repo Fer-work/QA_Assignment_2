@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assignment_2.nUnitTests\\ProductInventoryTest.cs",
               "ToolTip": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2.nUnitTests\\ProductInventoryTest.cs",
               "RelativeToolTip": "Assignment_2.nUnitTests\\ProductInventoryTest.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwHsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAuwHUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T19:13:39.831Z",
               "EditorCaption": ""
@@ -53,10 +53,9 @@
               "RelativeDocumentMoniker": "Assignment_2\\ProductInventory.cs",
               "ToolTip": "C:\\Users\\ferwo\\Desktop\\Programming-Software Quality Assurance\\Assignment_2\\Assignment_2\\Assignment_2\\ProductInventory.cs",
               "RelativeToolTip": "Assignment_2\\ProductInventory.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAcwFEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:31:34.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:31:34.081Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,17 @@
               "RelativeToolTip": "Assignment_2\\Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:23:35.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:23:35.551Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
